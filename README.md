@@ -1,2 +1,2 @@
-# hull_white_calibration_swaption
-In this project, we aim to calibrate the Hull-White one-factor model using market data, specifically focusing on Black-implied swaption volatilities. This process involves estimating the model's parameters so that the model's output matches observed market prices of swaptions.
+## Hull white calibration with swaption implies volatility
+In this project, we aim to calibrate the Hull-White one-factor model using market data, specifically focusing on Black-implied swaption volatilities. This process involves estimating the model's parameters so that the model's output matches observed market prices of swaptions. We start by pricing swaptions using the Jamshidian trick, which allows us to decompose the swaption pricing problem into a series of simpler steps. By applying this method, we can efficiently calculate the swaption price under the Hull-White framework, ensuring accurate calibration to market data
